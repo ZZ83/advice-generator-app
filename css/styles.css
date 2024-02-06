@@ -11,3 +11,12 @@ body {
     font-family: "Manrope", sans-serif;
     background-color: #202733;
 }
+
+.advice-card {
+    background-color: #313a48;
+    width: calc(100% - 32px);
+    height: 332px;
+    margin: auto;
+    max-width: 540px;
+    border-radius: 15px;
+}
