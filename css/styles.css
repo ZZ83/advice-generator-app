@@ -10,6 +10,11 @@
 body {
     font-family: "Manrope", sans-serif;
     background-color: #202733;
+    font-weight: 800;
+}
+
+h1 {
+    color: #53ffaa;
 }
 
 .advice-card {
