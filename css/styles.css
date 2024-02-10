@@ -15,6 +15,8 @@ body {
 
 h1 {
     color: #53ffaa;
+    font-size: 11px;
+    letter-spacing: 3.46px;
 }
 
 .advice-card {
@@ -24,4 +26,11 @@ h1 {
     margin: auto;
     max-width: 540px;
     border-radius: 15px;
+}
+
+@media screen and (min-width: 480px) {
+    h1 {
+        font-size: 13px;
+        letter-spacing: 4.09px;
+    }
 }
