@@ -19,11 +19,18 @@ h1 {
     letter-spacing: 3.46px;
 }
 
+p {
+    color: #cee3e9;
+    font-size: 24px;
+    letter-spacing: -0.26px;
+}
+
 .advice-card {
     background-color: #313a48;
     width: calc(100% - 32px);
-    height: 332px;
-    margin: auto;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 540px;
     border-radius: 15px;
 }
@@ -32,5 +39,13 @@ h1 {
     h1 {
         font-size: 13px;
         letter-spacing: 4.09px;
+    }
+    p {
+        color: #cee3e9;
+        font-size: 28px;
+        letter-spacing: -0.3px;
+    }
+    .advice-card {
+        margin-top: 220px;
     }
 }
