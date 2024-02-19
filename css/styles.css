@@ -24,14 +24,17 @@ body {
 
 h1 {
     color: #53ffaa;
+    margin-bottom: 24px;
     font-size: 11px;
     letter-spacing: 3.46px;
+    line-height: 17.8px;
 }
 
 p {
     color: #cee3e9;
     font-size: 24px;
     letter-spacing: -0.26px;
+    margin-bottom: 24px;
 }
 
 .advice-card {
@@ -54,6 +57,7 @@ p {
         color: #cee3e9;
         font-size: 28px;
         letter-spacing: -0.3px;
+        margin-bottom: 40px;
     }
     .advice-card {
         margin-top: 220px;
