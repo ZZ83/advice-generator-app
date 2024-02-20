@@ -24,10 +24,11 @@ body {
 
 h1 {
     color: #53ffaa;
+    margin-top: 0;
     margin-bottom: 24px;
     font-size: 11px;
     letter-spacing: 3.46px;
-    line-height: 17.8px;
+    line-height: 15px;
 }
 
 p {
@@ -35,6 +36,11 @@ p {
     font-size: 24px;
     letter-spacing: -0.26px;
     margin-bottom: 24px;
+    line-height: 33px;
+}
+
+picture {
+    display: flex;
 }
 
 .advice-card {
@@ -48,16 +54,23 @@ p {
     border-radius: 15px;
 }
 
+.decoration {
+    width: 100%;
+    height: 16px;
+}
+
 @media screen and (min-width: 480px) {
     h1 {
         font-size: 13px;
         letter-spacing: 4.09px;
+        line-height: 18px;
     }
     p {
         color: #cee3e9;
         font-size: 28px;
         letter-spacing: -0.3px;
         margin-bottom: 40px;
+        line-height: 38px;
     }
     .advice-card {
         margin-top: 220px;
